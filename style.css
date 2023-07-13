@@ -12,8 +12,7 @@ body {
 }
         /*  NAVBAR */
 nav {
-    display: flex;
-    
+    display: flex;   
     width: 100%;
     height: 70px;
     background-color: rgb(77, 71, 72, 0.4);
@@ -98,7 +97,7 @@ a {
 .btn-toggle-container img {
     width: 40px;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 599px){
     .btn-toggle-container {
         display: block;
     }
@@ -194,10 +193,10 @@ ul li:nth-child(10) {
     animation-delay: 1s;
 }
 
-@media  screen and (max-width: 767px) {
+@media  screen and (max-width: 599px) {
     .radio-li {
         position: absolute;
-        top: 30%;
+        top: 250px;
         margin: 0 10px;
         
     }
@@ -206,7 +205,7 @@ ul li:nth-child(10) {
     }
     
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
     .radio-li {
         position: absolute;
         top: 25%;
@@ -259,10 +258,10 @@ ul li:nth-child(10) {
         0 0 90px #d9f412;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 599px) {
     .box {
         position: absolute;
-        top: 300px;
+        top: 270px;
         width: 300px;
         height: 200px;
         margin: 50px auto;
@@ -271,7 +270,7 @@ ul li:nth-child(10) {
         font-size: 4em;       
     }    
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
     .box {
         position: absolute;
         top: 50%;
@@ -358,10 +357,10 @@ ul li:nth-child(10) {
 .rect5 {
     animation-delay: -0.8s;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 599px) {
     .anim-box {
         position: absolute;
-        top: 60%;
+        top: 430px;
         width: 100px;
         height: 50px;
     }
@@ -377,7 +376,7 @@ ul li:nth-child(10) {
         height: 50px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
     .anim-box {
         position: absolute;
         top: 80%;
@@ -414,6 +413,7 @@ ul li:nth-child(10) {
     border: 5px solid #d9f412;
     border-radius: 10px;
     padding: 10px;
+    height: fit-content;
 }
 h2 {
     font-family: 'android', sans-serif;
@@ -450,20 +450,22 @@ li.separator {
 .days {
     margin-right: 35px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 599px) {
     .timer {
-        width: 345px;       
+        width: 345px;
+        height: 245px;
+        /* height: fit-content;        */
     }
     .countdown ul li {
         width: 250px;
         margin: auto;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
     .timer {
         top: 90%;
         bottom: 3%;
-        height: fit-content;
+        
     }
 }
 @media screen and (min-width: 1024px) {
