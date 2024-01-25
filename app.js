@@ -28,7 +28,7 @@ btnMenu.addEventListener('click', function(){
  var secondsEl = document.getElementById('seconds')
  
  function countdownTimer() {
-     const countDownDate = new Date ('05/22/2024 19:51').getTime()
+     const countDownDate = new Date ('05/22/2024 06.37').getTime()
  //Convert to milliseconds
      const second = 1000
      const minute = second * 60
