@@ -56,6 +56,7 @@ a {
     text-align: left;
     margin-top: 20px;
     transition: color 2s;
+    z-index: 1;
 }
 .box-txt:hover {
     color: #f1f1f1;
@@ -64,6 +65,7 @@ a {
     height: fit-content;
     font-size: 16px;
     letter-spacing: 1px;
+    z-index: 1;
     /* text-transform: capitalize; */
 }
 .sub-menu {
@@ -371,7 +373,7 @@ ul li:nth-child(10) {
     }
     .anim-box1 {
         position: absolute;
-        top: 60%;
+        top: 430px;
         width: 100px;
         height: 50px;
     }
@@ -453,7 +455,7 @@ li.separator {
 @media screen and (max-width: 599px) {
     .timer {
         width: 345px;
-        height: 245px;
+        height: 170px;
         /* height: fit-content;        */
     }
     .countdown ul li {
